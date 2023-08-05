@@ -1,0 +1,217 @@
+/* Colores de Texto */
+.edu-text-blue {
+  color: #007bff;
+}
+
+.edu-text-green {
+  color: #28a745;
+}
+
+.edu-text-orange {
+  color: #fd7e14;
+}
+
+.edu-text-yellow {
+  color: #ffc107;
+}
+
+.edu-text-gray {
+  color: #6c757d;
+}
+
+.edu-text-purple {
+  color: #6f42c1;
+}
+
+.edu-text-red {
+  color: #dc3545;
+}
+
+.edu-text-cyan {
+  color: #17a2b8;
+}
+
+.edu-text-magenta {
+  color: #e83e8c;
+}
+
+/* Fondos de Color */
+.edu-bg-blue {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.edu-bg-green {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.edu-bg-orange {
+  background-color: #fd7e14;
+  color: #fff;
+}
+
+.edu-bg-yellow {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.edu-bg-gray {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.edu-bg-purple {
+  background-color: #6f42c1;
+  color: #fff;
+}
+
+.edu-bg-red {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.edu-bg-cyan {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.edu-bg-magenta {
+  background-color: #e83e8c;
+  color: #fff;
+}
+
+/* Hover para Fondos de Color */
+.edu-bg-blue:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.edu-bg-green:hover {
+  background-color: #218838;
+  color: #fff;
+}
+
+.edu-bg-orange:hover {
+  background-color: #d95c0a;
+  color: #fff;
+}
+
+.edu-bg-yellow:hover {
+  background-color: #e0a800;
+  color: #fff;
+}
+
+.edu-bg-gray:hover {
+  background-color: #565e64;
+  color: #fff;
+}
+
+.edu-bg-purple:hover {
+  background-color: #5e2f91;
+  color: #fff;
+}
+
+.edu-bg-red:hover {
+  background-color: #c82333;
+  color: #fff;
+}
+
+.edu-bg-cyan:hover {
+  background-color: #138496;
+  color: #fff;
+}
+
+.edu-bg-magenta:hover {
+  background-color: #d01c8b;
+  color: #fff;
+}
+
+
+/* Fondos de Color en Hover */
+.edu-bg-blue:hover, .edu-bg-light-blue {
+  background-color: #b3d7ff;
+  transition: background-color 0.3s, color 0.3s;
+  color: #333;
+}
+
+.edu-bg-green:hover, .edu-bg-light-green {
+  background-color: #a1e5a1;
+  transition: background-color 0.3s, color 0.3s;
+  color: #333;
+}
+
+.edu-bg-orange:hover, .edu-bg-light-orange {
+  background-color: #ffc785;
+  transition: background-color 0.3s, color 0.3s;
+  color: #333;
+}
+
+.edu-bg-black1 {
+  background-color: #333333;
+  color: #fff;
+}
+
+.edu-bg-black2 {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.edu-bg-black3 {
+  background-color: #292929;
+  color: #fff;
+}
+
+.edu-bg-black4 {
+  background-color: #1f2124;
+  color: #fff;
+}
+
+.edu-bg-black5 {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.edu-text-black1 {
+  color: #333333;
+}
+
+.edu-text-black2 {
+  color: #1a1a1a;
+}
+
+.edu-text-black3 {
+  color: #292929;
+}
+
+.edu-text-black4 {
+  color: #1f2124;
+}
+
+.edu-text-black5 {
+  color: #1e1e1e;
+}
+
+.header {
+  background: rgb(26,188,156);
+  background: linear-gradient(0deg, rgba(26,188,156,1) 56%, rgba(52,152,219,1) 100%);
+}
+
+.edu-text-lineal {
+  color: linear-gradient(0deg, rgba(26,188,156,1) 56%, rgba(52,152,219,1) 100%);
+}
+
+/*
+.navbar-custom {
+  padding: 0.5rem 1.5rem 0.5rem 2rem;
+  background-color: #1d1d1d;
+  box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+} */
+
+@media (min-width: 992px) {
+  .navbar-custom.top-nav-collapse {
+      padding: 0.5rem 1.5rem 0.5rem 2rem;
+      background-color: #1d1d1d;
+      box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+  }
+}
