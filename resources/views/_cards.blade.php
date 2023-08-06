@@ -1,4 +1,4 @@
-<div class="cards-1" style="padding-top: 1rem; padding-bottom: 2rem;">
+<div id="nosotros" class="cards-1" style="padding-top: 1rem; padding-bottom: 2rem;">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">

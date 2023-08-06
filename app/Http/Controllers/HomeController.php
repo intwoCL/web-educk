@@ -8,7 +8,7 @@ use SEO;
 class HomeController extends Controller
 {
   public function index() {
-    SEO::setTitle('Página SEO');
+    SEO::setTitle('Educk ');
     SEO::setDescription('Ejemplo de descripción de la página');
     // SEO::opengraph()->setUrl('https://www.nigmacode.com');
     // SEO::setCanonical('https://www.nigmacode.com');

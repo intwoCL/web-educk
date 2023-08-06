@@ -15,16 +15,16 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
+          <a class="nav-link page-scroll" href="#home">HOME <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link page-scroll" href="#features">FEATURES</a>
+          <a class="nav-link page-scroll" href="#problematica">PROBLEMATICA</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link page-scroll" href="#details">DETAILS</a>
+          <a class="nav-link page-scroll" href="#nosotros">NOSOTROS</a>
         </li>
 
-        <li class="nav-item dropdown">
+        {{-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle page-scroll" href="#video" id="navbarDropdown" role="button"
             aria-haspopup="true" aria-expanded="false">VIDEO</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -37,13 +37,16 @@
             <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">PRIVACY
                 POLICY</span></a>
           </div>
+        </li> --}}
+        <li class="nav-item">
+          <a class="nav-link page-scroll" href="#modulos">MÓDULOS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link page-scroll" href="#pricing">PRICING</a>
+          <a class="nav-link page-scroll" href="#proyecto">PROYECTOS</a>
         </li>
       </ul>
       <span class="nav-item">
-        <a class="btn-outline-sm" href="log-in.html">LOG IN</a>
+        <button class="btn-outline-sm" data-toggle="modal" data-target="#formModal">PROBAR DEMO</button>
       </span>
     </div>
   </div>

@@ -1,4 +1,4 @@
-<div id="details-lightbox-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
+<div id="details-lightbox-1" class="lightbox-basic zoom-anim-dialog mfp-hide" id="modulo">
   <div class="container">
     <div class="row">
       <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
@@ -143,7 +143,7 @@
 </div>
 
 {{-- <div id="details" class="basic-1" style="padding-top: 2rem; padding-bottom: 2rem;"> --}}
-<div id="details" class="basic-1" style="padding-top: 4rem; padding-bottom: 2rem;">
+<div id="proyecto" class="basic-1" style="padding-top: 4rem; padding-bottom: 2rem;">
   <div class="container">
     <div class="row text-center">
       <div class="col-lg-12">

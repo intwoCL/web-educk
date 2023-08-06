@@ -20,13 +20,7 @@
 @include('_copyright')
 
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -44,11 +38,11 @@
         <form>
           <div class="form-group">
             <label for="exampleInputEmail1">Correo electrónico<small class="text-danger">*</small></label>
-            <input type="email" class="form-control" required>
+            <input type="email" class="form-control" name="email" required>
           </div>
           <div class="form-group">
             <label for="exampleInputEmail1">Mensaje<small class="text-danger">*</small></label>
-            <input type="text" class="form-control" required>
+            <input type="text" class="form-control" name="mensaje" required>
           </div>
           <button type="submit" class="btn btn-dark btn-lg btn-block">Enviar</button>
         </form>

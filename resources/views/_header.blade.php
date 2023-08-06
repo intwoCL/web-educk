@@ -1,4 +1,4 @@
-<header id="header" class="header">
+<header id="home" class="header">
   <div class="header-content">
     <div class="container">
       <div class="row">
@@ -10,12 +10,12 @@
             </span>!
             </h1>
             <p class="p-large">Desarrollamos herramientas de gestión administrativas integral.</p>
-            <a class="btn-solid-lg page-scroll edu-text-lineal" href="sign-up.html">
+            <button class="btn-solid-lg page-scroll edu-text-lineal" data-toggle="modal" data-target="#formModal">
               <strong>PROBAR DEMO</strong>
-            </a>
-            <a class="btn-solid-lg page-scroll text-dark" href="sign-up.html">
+            </button>
+            <button class="btn-solid-lg page-scroll text-dark" href="#proyectos">
               <strong>PROYECTOS</strong>
-            </a>
+            </button>
           </div>
         </div>
         <div class="col-lg-6 col-xl-6">
