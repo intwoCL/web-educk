@@ -192,6 +192,10 @@
   color: #1e1e1e;
 }
 
+.edu-card {
+  border: none;
+}
+
 .header {
   background: rgb(26,188,156);
   background: linear-gradient(0deg, rgba(26,188,156,1) 56%, rgba(52,152,219,1) 100%);
@@ -200,6 +204,22 @@
 .edu-text-lineal {
   color: linear-gradient(0deg, rgba(26,188,156,1) 56%, rgba(52,152,219,1) 100%);
 }
+
+
+.svg-circulo {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: linear-gradient(0deg, rgba(26,188,156,1) 10%, rgb(18, 134, 211) 100%);
+}
+
+.svg-circulo-2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: linear-gradient(0deg, #b171f1 20%, #e5412b 100%);
+}
+
 
 /*
 .navbar-custom {

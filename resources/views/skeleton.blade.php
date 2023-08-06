@@ -5,15 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     {!! SEO::generate() !!}
     <title>Tivo - SaaS App HTML Landing Page Template</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="{{ asset('vendor/css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('vendor/css/fontawesome-all.css') }}" rel="stylesheet">
     <link href="{{ asset('vendor/css/swiper.css') }}" rel="stylesheet">
     <link href="{{ asset('vendor/css/magnific-popup.css') }}" rel="stylesheet">
     <link href="{{ asset('vendor/css/styles.css') }}" rel="stylesheet">
     <link href="{{ asset('me/styles.css') }}" rel="stylesheet">
-    <link rel="icon" href="{{ asset('vendor/images/favicon.png') }}">
+    <link rel="icon" href="{{ asset('me/favicon-educk.svg') }}">
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
     <div class="spinner-wrapper">

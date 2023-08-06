@@ -1,60 +1,38 @@
-<div class="basic-1" style="padding-top: 4rem;">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2>¿Deseas entender tu empresa como nunca antes?</h2>
-      </div>
-      <div class="col-lg-7">
-        <div class="text-container">
-          <p>Nuestra plataforma te ofrece la capacidad de recopilar, analizar y presentar datos de manera efectiva.</p>
-          <ul class="list-unstyled li-space-lg">
-            <li class="media">
-              <i class="fas fa-square"></i>
-              <div class="media-body">
-                Detecta patrones que antes pasaban desapercibidos, identifica tendencias que te guiarán hacia el éxito y destaca las características clave que marcan la diferencia.</div>
-            </li>
-            <li class="media">
-              <i class="fas fa-square"></i>
-              <div class="media-body">La Analítica Descriptiva de EDUCK te proporciona el conocimiento necesario para tomar decisiones informadas y estratégicas. Ya no te conformes con suposiciones, <strong>¡haz elecciones basadas en datos concretos!</strong></div>
-            </li>
-            <li class="media">
-              <i class="fas fa-square"></i>
-              <div class="media-body">No pierdas más tiempo en conjeturas. Descubre el poder de la Analítica Descriptiva con <strong>EDUCK</strong> y lleva a tu empresa hacia nuevas alturas. <strong>¡Explora hoy mismo y prepárate para el éxito del mañana!</strong></div>
-            </li>
-          </ul>
-          {{-- <a class="btn-solid-reg page-scroll" href="sign-up.html">SIGN UP</a> --}}
-        </div>
-      </div>
-      <div class="col-lg-5">
-        <div class="image-container">
-          <img class="img-fluid" src="{{ asset('me/banner/undraw_all_the_data_re_hh4w.svg') }}" alt="alternative">
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="cards-1">
+<div class="cards-1" style="padding-top: 1rem; padding-bottom: 2rem;">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h2 class="">asdasdasd</h2>
-        <p class="p-heading">
-          implica recopilar, analizar y presentar datos para comprender mejor los patrones, tendencias y características clave de una organización. Esto proporciona una visión clara de cómo está funcionando la empresa en diferentes aspectos y ayuda en la toma de decisiones informadas.
+        <h2 class="mb-3">
+          <img src="{{ asset('me/logo.svg') }}" width="200px" alt="">
+        </h2>
+        <p class="text-justify">
+          Nuestra misión es liderar la transformación educativa a través de <strong>soluciones tecnológicas vanguardistas y personalizadas</strong>. Trabajamos incansablemente para colaborar con instituciones educativas y organizaciones, brindándoles programas a medida respaldados por más de tres años de experiencia en <strong>innovación</strong>.
         </p>
+        <div class="alert alert-dark rounded-pill" role="alert" style="background: #000; color: #fff;">
+          {{-- <strong>dark</strong> --}}
+          <strong class="text-justify">
+            Nuestra pasión radica en enriquecer las experiencias de aprendizaje, empoderando a cada individuo para lograr un crecimiento significativo y sostenible en su camino educativo y profesional.
+          </strong>
+        </div>
       </div>
     </div>
 
-    <div class="row">
+    <div class="row mt-3">
+      <div class="col-12 text-center mb-3">
+        <h2>Explorando el Potencial Educativo<br> Un Enfoque Basado en Datos</h2>
+      </div>
       <div class="col-lg-4">
-        <div class="card">
+        <div class="card edu-card">
           <div class="card-image">
             <img class="img-fluid" src="{{ asset('me/banner/undraw_done_checking_re_6vyx.svg') }}" alt="alternative">
           </div>
           <div class="card-body">
-            <h4 class="card-title">Definir el Objetivo</h4>
-            <p>It's very easy to start creating email lists for your marketing actions. Just create your
-              Tivo account</p>
+            <h4 class="card-title">Definir objetivos</h4>
+            <p class="text-justify">
+              <small>
+                Comienza por establecer claramente el objetivo de tu análisis.
+              </small>
+            </p>
           </div>
         </div>
       </div>
@@ -66,8 +44,9 @@
           </div>
           <div class="card-body">
             <h4 class="card-title">Recopilación de Datos</h4>
-            <p>It's very easy to start creating email lists for your marketing actions. Just create your
-              Tivo account</p>
+            <p class="text-justify">
+              <small>Se recopilan datos relevantes de diversas fuentes dentro de la organización, como ventas, finanzas, operaciones, recursos humanos, entre otros.</small>
+            </p>
           </div>
         </div>
       </div>
@@ -79,8 +58,9 @@
           </div>
           <div class="card-body">
             <h4 class="card-title">Análisis y Exploración</h4>
-            <p>It's very easy to start creating email lists for your marketing actions. Just create your
-              Tivo account</p>
+            <p class="text-justify">
+              <small>Se utilizan técnicas de análisis de datos para explorar y examinar los datos recopilados. Esto puede incluir la identificación de patrones, tendencias y relaciones entre variables.</small>
+            </p>
           </div>
         </div>
       </div>
@@ -92,8 +72,9 @@
           </div>
           <div class="card-body">
             <h4 class="card-title">Visualización de Datos</h4>
-            <p>It's very easy to start creating email lists for your marketing actions. Just create your
-              Tivo account</p>
+            <p class="text-justify">
+              <small>Los resultados del análisis se presentan a través de gráficos, tablas y visualizaciones para hacer que la información sea más comprensible y accesible para los tomadores de decisiones.</small>
+            </p>
           </div>
         </div>
       </div>
@@ -105,11 +86,13 @@
           </div>
           <div class="card-body">
             <h4 class="card-title">Informes de Gestión</h4>
-            <p>It's very easy to start creating email lists for your marketing actions. Just create your
-              Tivo account</p>
+            <p class="text-justify">
+              <small>Los resultados del análisis descriptivo se presentan en informes de gestión que resumen los hallazgos y proporcionan información valiosa para la alta dirección.</small>
+            </p>
           </div>
         </div>
       </div>
+
       <div class="col-lg-4">
         <div class="card">
           <div class="card-image">
@@ -117,8 +100,9 @@
           </div>
           <div class="card-body">
             <h4 class="card-title">Conclusiones y Acciones</h4>
-            <p>It's very easy to start creating email lists for your marketing actions. Just create your
-              Tivo account</p>
+            <p class="text-justify">
+              <small>Extrae conclusiones basadas en los resultados del análisis descriptivo. ¿Qué implicaciones tienen estos resultados para tu negocio u organización? Define las acciones que podrían tomarse en función de las observaciones realizadas.</small>
+            </p>
           </div>
         </div>
       </div>

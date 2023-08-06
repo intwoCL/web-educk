@@ -2,10 +2,13 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <div class="above-heading">Soluciones de nuestro Software</div>
-        <h2 class="h2-heading">Marketing Automation</h2>
+        <h6 class="h2-heading">
+
+          <span class="badge badge-dark">Soluciones de nuestro Software</span>
+        </h6>
+        <h2 class="h2-heading">Nuestros modulos</h2>
         <p class="p-heading">
-          Contamos con diferentes módulos que podrán ayudarte a solucionar y potenciar cada aspecto en la gestión de personas de tu empresa.
+          Contamos con diferentes módulos que podrán ayudarte a solucionar y potenciar cada aspecto en la gestión.
         </p>
       </div>
     </div>
@@ -14,15 +17,23 @@
         <ul class="nav nav-tabs" id="argoTabs" role="tablist">
           <li class="nav-item">
             <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1"
-              aria-selected="true"><i class="fas fa-list"></i>Registramos</a>
+              aria-selected="true"><i class="fas fa-pen-square"></i>Atenciones</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2"
-              aria-selected="false"><i class="fas fa-envelope-open-text"></i>Campaigns</a>
+              aria-selected="false"><i class="fas fa-calendar"></i>Eventos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" id="nav-tab-3" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3"
-              aria-selected="false"><i class="fas fa-chart-bar"></i>Analytics</a>
+              aria-selected="false"><i class="fas fa-users"></i>Tutorias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-tab-4" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3"
+              aria-selected="false"><i class="fas fa-list"></i>Registros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-tab-4" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3"
+              aria-selected="false"><i class="fas fa-biking"></i>Estacionamiento</a>
           </li>
         </ul>
         <div class="tab-content" id="argoTabsContent">
