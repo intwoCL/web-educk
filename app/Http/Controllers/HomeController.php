@@ -8,8 +8,11 @@ use SEO;
 class HomeController extends Controller
 {
   public function index() {
-    SEO::setTitle('Educk ');
-    SEO::setDescription('Ejemplo de descripción de la página');
+    SEO::setTitle('Primera herramiento de gestión educacional | Educk');
+    SEO::setDescription('Nuestra plataforma te ofrece la capacidad de recopilar, analizar y presentar datos de manera efectiva.
+
+    Detecta patrones que antes pasaban desapercibidos, identifica tendencias que te guiarán hacia el éxito y destaca las características clave que marcan la diferencia.
+    La Analítica Descriptiva de  te proporciona el conocimiento necesario para tomar decisiones informadas y estratégicas. Ya no te conformes con suposiciones, ¡haz elecciones basadas en datos concretos!');
     // SEO::opengraph()->setUrl('https://www.nigmacode.com');
     // SEO::setCanonical('https://www.nigmacode.com');
     // SEO::opengraph()->addProperty('type', 'articles');
