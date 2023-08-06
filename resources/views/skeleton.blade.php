@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     {!! SEO::generate() !!}
-    <title>Tivo - SaaS App HTML Landing Page Template</title>
+    {{-- <title>Tivo - SaaS App HTML Landing Page Template</title> --}}
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="{{ asset('vendor/css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('vendor/css/fontawesome-all.css') }}" rel="stylesheet">
