@@ -13,6 +13,7 @@
     <link href="{{ asset('vendor/css/styles.css') }}" rel="stylesheet">
     <link href="{{ asset('me/styles.css') }}" rel="stylesheet">
     <link rel="icon" href="{{ asset('me/favicon-educk.svg') }}">
+    <meta name="google-site-verification" content="VAdi2dHhY3pOInpWE-78TbdO7ah7CXbrrKRZP3hmGrY" />
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
     <div class="spinner-wrapper">
